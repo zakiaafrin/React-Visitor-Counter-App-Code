@@ -27,10 +27,12 @@ class Counter extends Component {
   render() {
     return (
       <div>
+        <h1 className="Headline">Hit Counter To Enter Visitor Count</h1>
         <button className="inc" onClick={e => this.increment(e)}>
           Counter
         </button>
-        <span> {this.state.count}</span>
+        <span>{this.state.count}</span>
+        <br />
         <br />
         <button className="reset" onClick={e => this.reset(e)}>
           Reset

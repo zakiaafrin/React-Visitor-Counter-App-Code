@@ -1,7 +1,8 @@
 body {
-  background-image: url(https://www.ryedalefolkmuseum.co.uk/wp-content/uploads/sites/2/2017/01/Gallery-10-2.jpg);
+  background-image: url(https://museums.calderdale.gov.uk/sites/default/files/venues/smithartgallery007.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  font-size: 18px;
 }
 
 .App {
@@ -12,14 +13,14 @@ body {
   border: 2px solid #ffeb3b;
   background: #9c27b0;
   width: 20%;
-  margin-top: 6%;
+  margin-top: 1%;
   margin-left: 40%;
   color: white;
   border-radius: 8px;
 }
 
 .Welcome {
-  color: #da1b52;
+  color: #e9004f;
 }
 
 .inc {
@@ -44,7 +45,18 @@ body {
   outline: none;
 }
 
+.Headline {
+}
+
 span {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 41px;
+  border: 3px solid darkblue;
+  padding: 25px;
+  background-color: #da1b52;
+  color: white;
+  margin: 15px;
+  border-radius: 50%;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
